@@ -471,9 +471,9 @@ namespace SortingAlgorithms
                     if (DataSet.Length < 50)
                     {
                         Console.WriteLine("\nВведенный набор данных: ");
+                        PrintDataSet(DataSet);
                     }
 
-                    PrintDataSet(DataSet);
                     break;
 
                 case 2:
@@ -482,9 +482,9 @@ namespace SortingAlgorithms
                     if (DataSet.Length < 50)
                     {
                         Console.WriteLine("\nСгенерированный набор данных: ");
+                        PrintDataSet(DataSet);
                     }
 
-                    PrintDataSet(DataSet);
                     break;
             }
 
