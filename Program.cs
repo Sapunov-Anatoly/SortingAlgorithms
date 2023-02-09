@@ -330,7 +330,7 @@ namespace SortingAlgorithms
         {
             public static int[] HeapSort(int[] DataSet)
             {
-                Console.WriteLine("Алгоритм 'Сортировка выбором'");
+                Console.WriteLine("Алгоритм 'Пирамидальная сортировка'");
 
                 int swapCount = 0;
 
